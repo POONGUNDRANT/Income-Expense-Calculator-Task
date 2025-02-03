@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+
+body {
+    background: #f9ebebab;
+    font-family: "Lobster", sans-serif;
+    word-spacing: 6px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mainDiv {
+    @apply flex justify-center gap-16 flex-col items-center
+}
+
+.display {
+    @apply flex justify-center gap-5 md:gap-10 flex-wrap sm:flex-row relative mt-36 md:mt-32
+}
+
+.inex-Div {
+    @apply bg-white border flex items-center shadow px-7 py-4 md:px-10 md:py-7 rounded-md
+}
+
+.inexPara {
+    @apply text-[25px]
+}
+
+.spanPara {
+    @apply text-[25px]
+}
+
+.title {
+    @apply text-4xl w-full text-center font-semibold py-6 border-b-2 border-[#f79d548a] shadow-md fixed top-0 bg-[#F6e1e1] z-50 text-blue-600
+}
+
+.form-div {
+    @apply -mt-5 flex flex-col justify-center items-center border shadow-lg rounded mx-auto w-4/6 px-0 lg:px-16 bg-gray-50 h-full
+}
+
+.form-control {
+    @apply h-fit
+}
+
+.form {
+    @apply flex flex-wrap justify-center gap-5 my-8
+}
+
+.dataInput {
+    @apply border-2 border-[#f8a964] focus:outline-[#c3732d] rounded-md ps-4 py-2
+}
+
+.addCalculate {
+    @apply flex justify-center items-center w-full
+}
+
+.add-calculate-button {
+    @apply bg-blue-400 rounded-md px-4 py-2 mb-10 text-white hover:bg-blue-500 focus:bg-blue-500 focus:cursor-pointer focus:ring focus:ring-blue-500 focus:ring-offset-2
+}
+
+.section2 {
+    @apply mt-20 relative
+}
+
+.dti-table {
+    @apply max-h-96 overflow-y-auto mb-10 w-11/12 md:w-3/5 mx-auto
+}
+
+.table {
+    @apply table-auto w-full mx-auto shadow
+}
+
+.tr {
+    @apply shadow p-5
+}
+
+.th {
+    @apply p-5 bg-[#faa860] text-white text-left text-xl
+}
+
+.td {
+    @apply p-4 font-light
+}
+
+.filter {
+    @apply flex justify-center h-fit items-center flex-wrap gap-5 mx-auto w-fit
+}
+
+.div-flex {
+    @apply flex justify-center items-center gap-2 md-7 md:mb-10
+}
+
+.edit-input {
+    @apply p-2
+}
+
+.radio {
+    @apply h-4 w-4
+}
+
+.label {
+    @apply text-xl
+}
